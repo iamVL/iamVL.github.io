@@ -1,0 +1,23 @@
+{
+	"Links": [
+ 	{
+ 		"Name": "Strava",
+ 		"url": "https://www.strava.com/athletes/44286294",
+ 		"img": "fab fa-linkedin icon"
+ 	},
+ 	{
+ 		"Name": "Goodreads",
+ 		"url": "https://www.goodreads.com/user/show/12754020-simran-arora",
+ 		"img": "fab fa-linkedin icon"
+ 	},
+ 	{
+ 		"Name": "LinkedIn",
+	 	"url": "https://www.linkedin.com/in/simran-arora/",
+	 	"img": "fab fa-linkedin icon"
+	},
+	{
+ 		"Name": "GitHub",
+	 	"url": "https://github.com/simran-arora",
+	 	"img": "fab fa-github icon"
+	}
+]}

@@ -1,0 +1,200 @@
+.about-container {
+	display: flex;
+	gap: 4rem;
+	padding: 3rem 0;
+	max-width: 1200px;
+	margin: 0 auto;
+  }
+  
+  .about-left {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
+  }
+  
+  .about-image {
+	width: 100%;
+	max-width: 240px;
+	border-radius: 100%;
+	border: 2px solid black;
+  }
+  
+  .contact-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.3rem;
+  }
+
+	.contact-name {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: #333;
+		text-align: center;
+	}
+  
+  .email-link {
+	color: #333;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.1rem;
+	text-align: center;
+	cursor: pointer;
+	color: #222;
+  }
+
+.email-link:hover {
+  text-decoration: underline;
+}
+  
+  .social-links {
+	display: flex;
+	width: 100%;
+	gap: 1.5rem;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .icon-image {
+	width: 36px;
+	height: 36px;
+	transition: opacity 0.2s ease;
+  }
+  
+  .social-link {
+	color: #333;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.35rem;
+	font-size: 1.0rem;
+	font-weight: 500;
+  }
+  
+  .social-link:hover .icon-image {
+	opacity: 0.7;
+  }
+
+.social-label {
+	font-size: 1rem;
+	line-height: 1;
+	color: #333;
+}
+  
+  .about-right {
+	width: 70%;
+  }
+  
+  .about-name {
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+  }
+  
+  .about-text {
+	font-size: 1.1rem;
+	line-height: 1.6;
+	padding: 0 1rem;
+  }
+
+/* Notes list: tighten spacing above and below to reduce large gaps */
+.notes-list {
+	padding: 0;
+	margin: 0.6rem 0; /* reduced from larger defaults */
+	display: block;
+	list-style-position: inside;
+}
+
+.notes-list li {
+	margin-bottom: 0.6rem; /* reduced spacing between items */
+	line-height: 1.5;
+}
+
+/* Stronger, more specific rules to ensure tighter spacing inside the About text */
+.about-right .about-text .notes-list {
+	margin-block-start: 0.2rem !important;
+	margin-block-end: 0.6rem !important;
+	padding-left: 1rem; /* keep bullets aligned but reduce indent */
+}
+
+.about-right .about-text .notes-list li {
+	margin: 0.35rem 0 !important;
+}
+  
+  .AboutText {
+	font-size: 1.1rem;
+	line-height: 1.6;
+  }
+  
+  .abt_a {
+	color: #7CB9BC;
+	text-decoration: none;
+  }
+  
+  .abt_a:hover {
+	text-decoration: underline;
+  }
+
+	/* Make textual links pink and provide a darker pink on hover */
+	.abt_a, .email-link, .social-link, .about-name, .social-label, .about-text a {
+		color: #e91e63;
+	}
+
+	.abt_a:hover, .email-link:hover, .social-link:hover, .about-name:hover, .social-label:hover, .about-text a:hover {
+		color: #c2185b;
+		text-decoration: underline;
+	}
+  
+  @media (max-width: 768px) {
+	.about-container {
+	  flex-direction: column;
+	  gap: 2rem;
+	}
+  
+	.about-name {
+	  font-size: 1.8rem;
+	  text-align: center;
+	  margin-bottom: 1.5rem;
+	}
+	
+	.about-left {
+	  width: 100%;
+	  align-items: center;
+	}
+	
+	.about-right {
+	  width: 100%;
+	}
+  
+	.about-image {
+	  max-width: 100px;
+	  border-radius: 50%;
+	  border: 2px solid #7CB9BC;
+	}
+  
+	.contact-info {
+	  align-items: center;
+	  width: 100%;
+	}
+  
+	.social-links {
+	  justify-content: center;
+	}
+
+	.icon-image {
+	  width: 28px;
+	  height: 28px;
+	}
+  
+	.AboutText {
+	  font-size: 1rem;
+	  padding: 0 1rem;
+	}
+  
+	.about-text {
+	  font-size: 1rem;
+	}
+  }
