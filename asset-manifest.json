@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f2ff726.css",
+    "main.js": "/static/js/main.10434858.js",
+    "static/media/profile.jpg": "/static/media/profile.dcad10f1512700149ad3.jpg",
+    "static/media/Vaishnavi_Lokhande_PHD_CV.pdf": "/static/media/Vaishnavi_Lokhande_PHD_CV.8d1f2b2061bfe123fbc9.pdf",
+    "static/media/Vaishnavi_Lokhande_statement_of_interests.pdf": "/static/media/Vaishnavi_Lokhande_statement_of_interests.6a5fde7355c3732392dc.pdf",
+    "static/media/github-brands-solid.svg": "/static/media/github-brands-solid.8bbb8f09b1a2192f49f044af8350c909.svg",
+    "static/media/resume-solid.svg": "/static/media/resume-solid.abee640d957043dc9b5034750d607d98.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin-brands-solid.svg": "/static/media/linkedin-brands-solid.f4604017d350bb7c7b047280cdf45bf4.svg",
+    "static/media/statement-clipboard.svg": "/static/media/statement-clipboard.44753b62264ff267f60e6366acf0e8ff.svg",
+    "main.1f2ff726.css.map": "/static/css/main.1f2ff726.css.map",
+    "main.10434858.js.map": "/static/js/main.10434858.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f2ff726.css",
+    "static/js/main.10434858.js"
+  ]
+}
