@@ -1,0 +1,147 @@
+.ResearchContainer {
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  font-family: 'avenir';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.Title_research {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  /* font-style: italic; */
+  text-align: center;
+}
+
+.papers-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.paper-container {
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.PaperTitle {
+  display: block;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* font-style: italic; */
+  margin-bottom: 0.2rem;
+  line-height: 1.4;
+}
+
+.Authors {
+  display: block;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.Venue {
+  display: block;
+  font-size: 1rem;
+  color: rgb(100, 78, 78);
+  margin-bottom: 1rem;
+  /* font-style: italic; */
+}
+
+.details-container {
+  display: flex;
+  justify-content: flex-start;  /* Changed from center to flex-start */
+  flex-wrap: wrap;
+}
+
+.Details {
+  color: #e91e63; 
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.Details:hover {
+  text-decoration: underline;
+}
+
+/* Notes section */
+.notes-list {
+  /* list-style-type: none; */
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.notes-list li {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.notes-list a {
+  color: #7CB9BC;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.notes-list a:hover {
+  text-decoration: underline;
+}
+
+/* Talk styles */
+.Talk {
+  display: block;
+  color: #68AB5A;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.Talk_details {
+  display: block;
+  font-size: 1rem;
+  /* font-style: italic; */
+  /* font-weight: bold; */
+  color: rgb(100, 78, 78);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .ResearchContainer {
+    padding: 2rem 1rem;
+  }
+
+  .Title_research {
+    font-size: 2rem;
+  }
+
+  .paper-container {
+    padding: 0 1rem;
+  }
+}

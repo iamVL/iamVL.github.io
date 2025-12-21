@@ -1,0 +1,70 @@
+.education-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    font-family: 'avenir';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .course-item {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .course-title {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .course-company {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .course-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .course-link {
+    color: rgb(65, 72, 117);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .course-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .education-container {
+      padding: 2rem 1rem;
+    }
+    
+    .course-title {
+      font-size: 1.2rem;
+    }
+    
+    .course-company,
+    .course-link {
+      font-size: 1rem;
+    }
+  }

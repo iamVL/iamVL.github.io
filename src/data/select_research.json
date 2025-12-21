@@ -1,0 +1,64 @@
+{
+  "Research": [
+    {
+      "Title": "RecovR, Post-Surgery Recovery Monitoring Platform",
+      "Authors": "",
+      "LocalDetails": [],
+      "Details": [
+        {
+          "detail": "https://github.com/iamVL/RecovR",
+          "detailType": "[Code]"
+        }
+      ],
+      "Description": "Designed and implemented an iOS and web-based recovery monitoring system that integrates patient-reported journals with real-time physiological data from wearable devices. The project explored how Gemini AI–based summarization can help clinicians interpret fragmented and noisy post-discharge recovery data to support timely, clinically meaningful decisions."
+    },
+    {
+      "Title": "BookTrack, Software Systems Project on Library Management",
+      "Authors": "",
+      "LocalDetails": [],
+      "Details": [
+        {
+          "detail": "https://github.com/iamVL/BookTrackLibrary",
+          "detailType": "[Code]"
+        }
+      ],
+      "Description": "Designed and implemented a full-stack library management system using React, Node.js, and PostgreSQL, with a focus on how database design and search mechanisms influence system behavior under evolving requirements. The project examined how schema optimization and query-level reasoning can improve search performance and maintainability, highlighting opportunities for AI-assisted techniques to support reasoning about performance, maintainability, and system evolution."
+    },
+    {
+      "Title": "The Melting Pot, A Social-Media Cooking Platform",
+      "Authors": "",
+      "LocalDetails": [],
+      "Details": [
+        {
+          "detail": "https://github.com/iamVL/melting",
+          "detailType": "[Code]"
+        }
+      ],
+      "Description": "Designed and implemented a social-media–style cooking platform using React and MySQL that supports culturally inclusive recipe sharing and accessibility-aware filtering. The project examined how user intent and engagement evolve over time in socially oriented systems as users interact with personalization, feedback, and community features."
+    },
+    {
+      "Title": "Pet Patrol, User-Centered Systems Design",
+      "Authors": "",
+      "LocalDetails": [],
+      "Details": [
+        {
+          "detailType": "[Code]",
+          "detail": "https://github.com/iamVL/pet--patrol"
+        }
+      ],
+      "Description": "Designed a full-stack pet management platform that integrates routines, profiles, and health records into a single system. The project examined how interface design and system organization affect user engagement and reliability in applications intended for frequent, long-term use."
+    },
+    {
+      "Title": "Little Star, Pediatric Clinical Workflow Automation System",
+      "Authors": "",
+      "LocalDetails": [],
+      "Details": [
+        {
+          "detail": "https://github.com/iamVL/CSE-360-Office-Automation-System-for-Pediatric-Doctor-s-Office",
+          "detailType": "[Code]"
+        }
+      ],
+      "Description": "Designed and implemented a JavaFX-based clinical automation system to support pediatric patient management, secure authentication, and prescription workflows. The project examined how digital system design can structure clinical processes, ensure data integrity, and support reliable coordination between patients and providers in healthcare settings."
+    }
+  ]
+}
