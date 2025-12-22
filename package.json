@@ -4,17 +4,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.1",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-router-dom": "^7.11.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-=======
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
@@ -22,33 +11,21 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "create-react-app": "^5.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.27.0",
     "react-scripts": "3.4.1"
->>>>>>> 9ea0b3d (Initial commit of portfolio source code)
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "",
-<<<<<<< HEAD
-    "deploy": "gh-pages -d build -b main"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-=======
-    "deploy": "gh-pages -d build -b master"
+    "predeploy": "NODE_OPTIONS=--openssl-legacy-provider npm run build",
+    "deploy": "NODE_OPTIONS=--openssl-legacy-provider gh-pages -d build -b master"
   },
   "eslintConfig": {
     "extends": "react-app"
->>>>>>> 9ea0b3d (Initial commit of portfolio source code)
   },
   "browserslist": {
     "production": [
@@ -63,10 +40,6 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "gh-pages": "^6.3.0"
-=======
-    "gh-pages": "^3.2.3"
->>>>>>> 9ea0b3d (Initial commit of portfolio source code)
+    "gh-pages": "^3.1.0"
   }
 }
