@@ -1,5 +1,5 @@
 # iamvl.github.io
-personal website
+Personal portfolio website of **Vaishnavi Lokhande**.
 
 ## Edit Github page (future times)
 
