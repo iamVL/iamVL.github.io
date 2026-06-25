@@ -6,10 +6,25 @@ import githubIcon from "../assets/github-brands-solid.svg";
 import linkedinIcon from "../assets/linkedin-brands-solid.svg";
 import resumeIcon from "../assets/resume-solid.svg";
 import statementClipboard from "../assets/statement-clipboard.svg";
+import newsData from "../data/news.json";
 
 const About = () => {
+  const latest = newsData[0];
+
   return (
     <div className="page-background">
+
+    {latest && (
+      <div className="news-banner">
+        <span className="news-banner-pill">News</span>
+        <span className="news-banner-text">
+          {latest.text}
+          {latest.detail && <span className="news-banner-detail"> — {latest.detail}</span>}
+        </span>
+        <span className="news-banner-date">{latest.date}</span>
+      </div>
+    )}
+
     <div className="about-container">
       <div className="about-left">
         <img  
@@ -100,6 +115,23 @@ I have complemented my research with teaching and leadership activities. As an <
 </div>
       </div>
     </div>
+
+    <div className="news-feed-section">
+      <h2 className="news-feed-title">Latest News</h2>
+      <div className="news-feed-list">
+        {newsData.map(item => (
+          <div className="news-feed-item" key={item.id}>
+            <span className="news-feed-date">{item.date}</span>
+            <div className="news-feed-body">
+              <span className="news-feed-tag">{item.tag}</span>
+              <p className="news-feed-text">{item.text}</p>
+              {item.detail && <p className="news-feed-detail">{item.detail}</p>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
     </div>
   );
 };
